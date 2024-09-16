@@ -1,0 +1,7 @@
+node_modules/
+
+            "cap": root.querySelectorAll(".series-chapters")[0]['rawText'],
+            "nota": root.querySelectorAll(".nota")[0]['rawText'],
+            "genero01": root.querySelectorAll(".nota")[1]['rawText'],
+            "genero02": root.querySelectorAll(".nota")[2]['rawText'],
+            "descricao": root.querySelectorAll(".series-desc")[0]['rawText']

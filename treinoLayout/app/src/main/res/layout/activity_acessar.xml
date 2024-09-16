@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linearLogin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Olá! Para continuar digite seu e-mail ou usuário"
+            android:layout_marginBottom="30dp"
+            android:textSize="22sp"
+            android:gravity="center_horizontal" />
+
+        <EditText
+            android:id="@+id/linearEditEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="E-mail ou usuário"/>
+
+        <EditText
+            android:id="@+id/linearEditSenha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Senha de acesso"/>
+
+        <Button
+            android:id="@+id/linearBtnSalvar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SALVAR"
+            android:backgroundTint="@color/cinza"
+            android:layout_marginBottom="23dp"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/linearBtnContinuar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CONTINUAR"
+            android:backgroundTint="@color/cinza"
+            android:layout_marginBottom="23dp"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/linearBtnContinuarList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CONTINUAR_LIST"
+            android:backgroundTint="@color/cinza"
+            android:layout_marginBottom="23dp"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/linearBtnRemover"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="REMOVER"
+            android:backgroundTint="@color/Read"
+            android:layout_marginBottom="23dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Criar conta"
+            android:textColor="@color/azul_escuro"
+            android:gravity="center_horizontal" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/listCusCodigo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Codigo: 455182"/>
+
+        <TextView
+            android:id="@+id/listCusNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nome: bolinho"/>
+
+        <TextView
+            android:id="@+id/listCusCodBarras"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Codígo de barras: 123456789"/>
+
+        <TextView
+            android:id="@+id/listCusTextEstoque"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Estoque: 01"/>
+
+        <LinearLayout
+            android:id="@+id/listCusBtnEstoque"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:background="@color/teal_700"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Adcionar estoque"
+                android:padding="5dp"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

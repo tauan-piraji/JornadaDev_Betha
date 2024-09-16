@@ -1,0 +1,8 @@
+n = (input('Digite algo: '))
+print(n, 'é um/a: ', type(n))
+print(n, ' pode ser numero?:', n.isnumeric())
+print(n, ' pode ser alfa?:', n.isalpha())
+print(n, ' pode ser alfaNum?:', n.isalnum())
+print(n, ' pode ser MAIUSCULO?:', n.isupper())
+print(n, ' pode ser minusculo?:', n.islower())
+print(n, ' pode ser titulo?:', n.istitle())

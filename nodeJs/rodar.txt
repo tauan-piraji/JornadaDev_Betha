@@ -1,0 +1,21 @@
+// criar package.json que vai iniciar a aplicação
+npm init -y
+
+//cria node_modules || framework REST
+npm add express
+cost express = require("express")
+const app = express()
+
+//ORM controle DB, abstrai camada de banco de dados 
+npm install --save sequelize
+
+//seleção do tipo de banco
+npm install --save mysql2
+
+//handlebars ajuda a tranferir variaveis do back para o html
+sudo npm install --save express-handlebars
+cost handlebars = require('express-handlebars)
+
+//Recebe dados de formularios express
+sudo npm install --save body-parser
+cost bodyParser = require('body-parser')

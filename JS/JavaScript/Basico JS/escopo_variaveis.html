@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        //3 escopos: global, função e o bloco
+
+        var serie = 'the big bang theory';
+
+        //escopo de bloco
+        if(treu) {
+            var serie2 = "game of thrones"; 
+            document.write(serie);
+        }
+
+        document.write('<br />');
+        document.write(serie);
+        document.write('<br />');
+        document.write(serie2);
+        document.write('<br />');
+
+        //escopo de function
+        function x() {
+            var serie3 = 'the walking dead';
+            document.write(serie);
+            document.write('<br />');
+            document.write(serie2);
+        }
+
+        x();
+
+        document.write(serie3);
+
+    </script>
+</body>
+</html>

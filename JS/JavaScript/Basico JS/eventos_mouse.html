@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    function onClick() {
+        alert('evento click')
+    }
+
+    function ondBlclick() {
+        alert('evento oldClick')
+    }
+
+    function onMouseUp() {
+        alert('evento onMouseUp ')
+    }
+
+    function onMouseOver() {
+        alert('evento onmouseover')
+    }
+
+    function onMouseOut() {
+        alert('evento onmouseout')
+    }
+</script>
+<body>
+    <div style="display: flex;">
+        <div onclick="onClick()" style="background-color: #ccc; height: 150px; width: 150px;"></div>
+        <div ondblclick="ondBlclick()" style="background-color: rgb(230, 71, 71); height: 150px; width: 150px;"></div>
+        <div onmouseup="onMouseUp()" style="background-color: rgb(22, 150, 64); height: 150px; width: 150px;"></div>
+        <div onmouseover="onMouseOver()" style="background-color: rgb(56, 47, 90); height: 150px; width: 150px;">
+            <p>houver</p>
+        </div>
+        <div onmouseout="onMouseOut()" style="background-color: rgb(228, 20, 124); height: 150px; width: 150px;"></div>
+    </div>
+</body>
+</html>

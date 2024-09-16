@@ -1,0 +1,15 @@
+spring.datasource.url=postgres://tfwgfodrabayyq:ac3006d1d59b15e73f52bd4d45fc21d669a2a1c1f2289c7b4d53d17faa072fb9@ec2-54-158-232-223.compute-1.amazonaws.com:5432/d4ic43l01g5f7g
+
+spring.jpa.hibernate.ddl-auto=none
+spring.jpa.show-sql=false
+spring.jpa.properties.hibernate.format_sql=false
+
+spring.mail.host=smtp.gmail.com
+spring.mail.username=tauan.piraji
+spring.mail.password=
+spring.mail.properties.mail.smtp.auth = true
+spring.mail.properties.mail.smtp.socketFactory.port = 465
+spring.mail.properties.mail.smtp.socketFactory.class = javax.net.ssl.SSLSocketFactory
+spring.mail.properties.mail.smtp.socketFactory.fallback = false
+spring.mail.properties.mail.smtp.starttls.enable = true
+spring.mail.properties.mail.smtp.ssl.enable = true

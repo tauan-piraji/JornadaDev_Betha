@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        function exibirArtigo(id, callBacksucesso, callBackErro) {
+
+            if(id == 1) {
+                callBacksucesso('funcoes de calbaack em JS', 'funcoes de callback ...');
+            }else {
+                callBackErro('ERROR 404');
+            }
+        }
+
+        var callBacksucesso = function(x, y) {
+            document.write('<h1>' + X + '</h1>');
+            document.write('<hr>');
+            document.write('<p>' + y + '</p>')
+        }
+
+        var callBackErro = function(x) {
+            document.write(X)
+        }
+
+        exibirArtigo(1, callBacksucesso, callBackErro);
+
+    </script>
+</body>
+</html>
